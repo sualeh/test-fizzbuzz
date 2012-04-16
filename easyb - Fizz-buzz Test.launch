@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.easyb.launch.launcher.BehaviourLaunchConfigurationDelegate">
+<stringAttribute key="EASYB_CONTAINER_HANDLE" value="=fizzbuzz/src\/test\/easyb"/>
+<stringAttribute key="EASYB_FILE_PATH" value="src/test/easyb/FizzBuzz.story"/>
+<booleanAttribute key="EASYB_IS_SINGLE_STORY" value="true"/>
+<listAttribute key="EASYB_STORIES_FULL_PATH">
+<listEntry value="C:\Users\Sualeh Fatehi\Documents\_Projects\fizzbuzz\src\test\easyb\FizzBuzz.story"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/fizzbuzz"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="fizzbuzz"/>
+<booleanAttribute key="pde.generated.config" value="true"/>
+</launchConfiguration>

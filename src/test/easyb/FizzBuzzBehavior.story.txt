@@ -1,0 +1,43 @@
+
+import sf.projects.fizzbuzz.FizzBuzzer
+
+
+examples "examples of fizz-buzz resonses", {
+  guess = [
+    1,
+    2,
+    3,
+    4,
+    5,
+    9,
+    10,
+    12,
+    15,
+    16
+  ]
+  answer = [
+    "1",
+    "2",
+    "fizz",
+    "4",
+    "buzz",
+    "fizz",
+    "buzz",
+    "fizz",
+    "fizz-buzz",
+    "16"
+  ]
+}
+
+scenario "playing fizz-buzz", {
+  given "a fizz-buzz player", {
+    fb = new FizzBuzzer(3, 5)
+  }
+  and { number = guess }
+
+  when "we play fizz-buzz", {
+    display = fb.answer(number);
+  }
+  then "we should get the correct fizz-buzz response", { display.shouldBe answer }
+}
+
